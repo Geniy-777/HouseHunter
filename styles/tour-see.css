@@ -1,0 +1,154 @@
+.tour-see {
+	display: flex;
+	gap: 30px;
+	justify-content: space-around;
+	margin-bottom: 150px;
+	flex-wrap: wrap;
+}
+.tour-see__description {
+	max-width: 440px;
+}
+.tour__main-description {
+}
+
+.tour__title {
+	font-family: 'Lexend';
+	font-weight: 600;
+	font-size: 32px;
+	text-transform: capitalize;
+	color: #1B1C57;
+}
+
+.tour__text {
+	margin-top: 15px;
+	max-width: 400px;
+	font-family: 'Lexend';
+	font-weight: 400;
+	font-size: 16px;
+	color: #626687;
+	opacity: 0.75;
+}
+
+.tour__house-details {
+	position: relative;
+	margin-top: 45px;
+	max-width: 440px;
+}
+
+.tour__house-details::after{
+	position: absolute;
+	content: "";
+	bottom: -20px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+
+	background: #F0F3FD;
+}
+
+.house-details__title {
+	font-family: 'Lexend';
+	font-weight: 600;
+	font-size: 16px;
+	color: #1B1C57;
+	opacity: 0.75;
+
+	margin-bottom: 10px;
+}
+
+.house-details__list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
+.house-details__item {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	margin: 10px 0;
+	gap: 20px;
+
+	width: 200px;
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #3C4563;
+}
+.tour__call-us {
+	height: 56px;
+
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tour__call-us .manager-photo {
+	height: 100px;
+	margin-left: -30px;
+	margin-top: 15px;
+}
+.manager-description {
+	display: flex;
+	height: 56px;
+	align-items: center;
+}
+.manager-description .manager-name {
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 18px;
+	color: #0E1735;
+}
+.manager-description .manager-position {
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 16px;
+	color: #888B97;
+}
+
+.tour-see__video {
+	padding: 25px 35px;
+
+	box-shadow: 50px 60px 100px rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(35px);
+	border-radius: 12px;
+	border:2px solid RGBA(0,213,221,0.2);
+}
+.tour__points {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.point {
+	width: 9px;
+	height: 9px;
+	border-radius: 5px;
+}
+.point:nth-child(1){
+	background-color: red;
+}
+
+.point:nth-child(2){
+	background-color: #FFA51F;
+}
+
+.point:nth-child(3){
+	background-color: #13DA67;
+}
+
+
+.video-instruction {
+	margin: 25px 0 0 0;
+}
+
+
+@media screen and (max-width:700px){
+	.tour-see__video{
+		width: 80vw;
+	}.tour-see__video img{
+		width: 68vw;
+	}
+}

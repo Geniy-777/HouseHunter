@@ -1,0 +1,109 @@
+/*
+	Lexend
+	Poppins
+	Rubik
+	Mulish
+	DM Sans
+*/
+
+@font-face{
+	font-family: "Lexend";
+
+	src: url("../fonts/Lexend-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "Poppins";
+
+	src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "Rubik";
+
+	src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "Mulish";
+
+	src: url("../fonts/Mulish-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "DM Sans";
+
+	src: url("../fonts/DMSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	overflow-x: hidden;
+	font-style: normal;
+}
+
+img	{
+	pointer-events: none;
+}
+
+.house-catalog,.services,.tour-see,.comments,.news{
+	margin-top: 150px;
+	padding: 0 7%;
+}
+
+.recommendation{
+	position: relative;
+
+	font-family: 'Lexend';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #F59E0B;
+}
+
+.recommendation::before{
+	position: absolute;
+	content: "";
+	width: 32px;
+	height: 1px;
+	left: -40px;
+	top: 50%;
+	background-color: #F59E0B;
+}
+
+:is(.comments,.news) .recommendation {
+	margin-top: 10px;
+	text-align: center;
+}
+:is(.comments,.news) .recommendation::before{
+	top: -10px;
+	left: 49%;
+}
+
+
+
+.main {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+
+
+.footer {
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}

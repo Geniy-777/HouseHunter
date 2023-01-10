@@ -1,0 +1,150 @@
+
+.catalog__top-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.catalog__title {
+	font-family: 'Lexend';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	text-transform: capitalize;
+	color: #1B1C57;
+}
+
+.buttons-navigate__container{
+	display: flex;
+	gap: 30px;
+}
+.catalog__buttons-list{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
+.catalog__top-bar>*{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.catalog__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+
+	overflow-x: hidden;
+
+	margin-top: 50px;
+}
+.cart {
+	width: 340px;
+	height: 552px;
+	transition: .3s ease;
+}
+.cart__intro {
+	position: relative;
+
+}
+.cart-intro__image {
+	width: 340px;
+	height: 382px;
+	border-radius: 24px;
+}
+.cart-intro__name {
+	display: flex;
+	align-items: center;
+
+	padding: 2px 17px;
+	gap: 12px;
+
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	width: 130px;
+	height: 34px;
+
+	background: #D1FAE5;
+	border-radius: 32px;
+}
+
+.cart-intro__name.popular{
+	background-color: #FEE2E2;
+}
+
+.cart-intro__name.popular .cart-intro-name__text{
+	color: #EF4444;
+}
+
+.cart-intro__name.new-house .cart-intro-name__text{
+	color: #1D4ED8;
+}
+
+
+.cart-intro-name__image {
+	width: 13px;
+	height: 13px;
+}
+
+.cart-intro-name__text {
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #047857;
+}
+.cart__name {
+	margin: 20px 0 0 0;
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 24px;
+	color: #0E1735;
+}
+.cart__prise {
+	margin-top: 10px;
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 20px;
+	color: #3C4563;
+}
+.cart__owner {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 20px;
+	gap:15px;
+}
+.cart-owner__pic {
+}
+.cart-owner__description {
+}
+.cart-owner-desc__name {
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 18px;
+	color: #0E1735;
+}
+.cart-owner-desc__position {
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 14px;
+	color: #888B97;
+}
+
+
+@media screen and (max-width:650px){
+	.house-catalog.house-catalog.house-catalog.house-catalog{
+		margin-top: 50px;
+	}
+	.catalog__top-bar{
+		justify-content: center;
+	}
+	.house-catalog.house-catalog.house-catalog.house-catalog{
+		padding: 0 3px;
+	}
+}

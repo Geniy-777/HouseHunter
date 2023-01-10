@@ -1,0 +1,128 @@
+.comments {
+	margin-bottom: 150px;
+	overflow: hidden;
+}
+
+.comments__title {
+
+	font-family: 'Lexend';
+	font-weight: 600;
+	font-size: 32px;
+	text-align: center;
+	text-transform: capitalize;
+
+	color: #1B1C57;
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+.comment__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height: 505px;
+
+	gap: 50px;
+	list-style-type: none;
+}
+.comments_item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	max-width: 740px;
+	width: 100%;
+	height: 100%;
+
+	transition: .3s ease;
+}
+.comment-item__description {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+	border-radius: 16px;
+	box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05);
+	border: 1px rgba(0,0,0,0.2) solid;
+	padding: 32px;
+
+	max-width: 610px;
+
+	left: 10%;
+	margin-top: 250px;
+	margin-right: 30px;
+}
+
+.description__title {
+	font-family: 'Lexend';
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #1B1C57;	
+	margin-bottom: 15px;
+}
+
+.description__text {
+	font-family: 'Lexend';
+	font-weight: 400;
+	font-size: 14px;
+	color: #626687;
+	opacity: 0.75;
+	margin-bottom: 25px;
+}
+
+.comment__owner {
+	height: 48px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.owner__data {
+	display: flex;
+	align-items: center;
+}
+
+.owner__data img{
+	margin-top: 15px;
+}
+.owner-photo {
+}
+.owner__description {
+}
+.owner-desc__title {
+}
+.owner-desc__text {
+}
+.owner__mark {
+}
+.star-img {
+}
+.owner-mark__text {
+}
+
+.buttons-nav__container{
+	margin-top: 100px;
+	gap: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+@media screen and (max-width:880px){
+	.comments_item .comment-item__bg{
+		width: 80vw;
+	}
+	.comment-item__description{
+		margin-top: 30%;
+	}
+	.buttons-nav__container{
+		margin-top: 160px;
+	}
+}
+@media screen and (max-width:600px){
+.buttons-nav__container{
+		margin-top: 260px;
+	}
+}

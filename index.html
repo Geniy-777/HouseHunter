@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Houter-HouseHunter</title>
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/button.css">
+	<link rel="stylesheet" href="styles/feature_catalog.css">
+	<link rel="stylesheet" href="styles/intro_section.css">
+	<link rel="stylesheet" href="styles/service_section.css">
+	<link rel="stylesheet" href="styles/tour-see.css">
+	<link rel="stylesheet" href="styles/comments.css">
+	<link rel="stylesheet" href="styles/news.css">
+	<link rel="stylesheet" href="styles/footer.css">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__logo">
+			<img src="imgs/logo.png" alt="" class="logo__img">
+		</div>
+
+		<div class="navigation-section">
+			<nav class="header-navigation__container">
+				<ul class="navigation__list">
+					<li class="navigation__list-item active"><a href="">Home</a></li>
+					<li class="navigation__list-item"><a href="">Property</a> </li>
+					<li class="navigation__list-item"><a href="">Property</a> </li>
+				</ul>
+			</nav>
+			<button class="button__sign-up">Sign up!</button>
+			<a class="burger__bg"><div href="#" class="burger-menu" hidden></div></a>
+		</div>
+	</header>
+	<main class="main">
+		<section class="intro-section">
+			<div class="intro__description">
+				<h1 class="title intro__title">Good Living Better live your dreams easily here</h1>
+				<p class="text intro__text">Everything you need about finding your place to live will be here, where it will be easier for you. Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
+				<div class="search-block">
+					<img src="imgs/search_img.png" alt="" class="search-block__image">
+					<input type="text" placeholder="Search for the location you want!" class="search-block__input">
+					<button class="button__search">Search</button>
+				</div>
+				<div class="our-partnership__block">
+					<h3 class="subtitle partnership__title">Our Partnership</h3>
+					<ul class="partnership__examples">
+						<a href="https://google.com" target="blank">
+							<li class="list-item">
+								<img src="imgs/partner_1.png" alt="" class="partnership__img">
+							</li>
+						</a>
+						<a href="https://google.com" target="blank">
+							<li class="list-item">
+								<img src="imgs/partner_2.png" alt="" class="partnership__img">
+							</li>
+						</a>
+						<a href="https://google.com" target="blank">
+							<li class="list-item">
+								<img src="imgs/partner_3.png" alt="" class="partnership__img"></li>
+						</a>
+						<a href="https://google.com" target="blank">
+							<li class="list-item">
+								<img src="imgs/partner_4.png" alt="" class="partnership__img"></li>
+						</a>
+					</ul>	
+				</div>
+			</div>
+			<div class="intro__examples">
+				<div class="intro__bg">
+					<img src="imgs/main_img.png" alt="" class="intro-bg__image pool">
+					<img src="imgs/main_img_2.png" alt="" class="intro-bg__image entry">
+				</div>
+
+				<div class="intro__slider">
+					<ul class="intro__achievements">
+						<li class="achievement__item">
+							<div class="members_imgs">
+								<!-- <img src="imgs/intro-section/1kp_1.png" alt="">
+								<img src="imgs/intro-section/1kp_2.png" alt="">
+								<img src="imgs/intro-section/1kp_3.png" alt=""> -->
+								<img src="imgs/intro-section/1kp.png" alt="" class="member_img_1k">
+
+							</div>
+							<div class="achivment__description">
+								<p class="achiv-desc__title achivment__title">1K+ People</p>
+								<p class="achiv-desc__text achivment__text">Successfully Getting Home</p>
+							</div>
+						</li>
+						<li class="achievement__item">
+							<div class="members_imgs">
+								<img src="imgs/intro-section/56houses.png" alt="" class="member56houses">
+							</div>
+							<div class="achivment__description normal">
+								<p class="achiv-desc__title achivment__title">56 Houses</p>
+								<p class="achiv-desc__text achivment__text">Sold Monthly</p>
+							</div>
+						</li>
+						<li class="achievement__item">
+							<div class="members_imgs">
+								<img src="imgs/intro-section/4k.png" alt="" class="member4k">
+							</div>
+							<div class="achivment__description">
+								<p class="achiv-desc__title achivment__title">4K+</p>
+								<p class="achiv-desc__text achivment__text">People Looking for New Homes</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="house-catalog">
+			<h4 class="recommendation">Our Recommendation</h4>
+			<div class="catalog__top-bar">
+				<h2 class="title catalog__title">Featured House</h2>
+				<div class="catalog__buttons-list">
+					<button class="button-catalog button-catalog__house active">House</button>
+					<button class="button-catalog button-catalog__villa">Villa</button>
+					<button class="button-catalog button-catalog__apartment">Apartment</button>
+					<div class="buttons-navigate__container">
+						<button class="button-switch-slider switch-left"></button>
+						<button class="button-switch-slider switch-right"></button>
+					</div>
+				</div>
+			</div>
+			<div class="catalog__list">
+				<div class="cart" id="1">
+					<div class="cart__intro">
+						<img src="imgs/feature-catalog/1_bg.png" alt="" class="cart-intro__image">
+						<div class="cart-intro__name popular">
+							<img src="imgs/feature-catalog/popular.svg" alt="img" class="cart-intro-name__image">
+							<p class="cart-intro-name__text">Popular</p>
+						</div>
+					</div>
+					<p class="cart__name">
+						Roselands House
+					</p>
+					<p class="cart__prise">$ 35.000.000</p>
+					<div class="cart__owner">
+						<img src="imgs/feature-catalog/1_owner.png" alt="img" class="cart-owner__pic">
+						<div class="cart-owner__description">
+							<p class="cart-owner-desc__name">Dianne Russell</p>
+							<p class="cart-owner-desc__position">Manchester, Kentucky</p>
+						</div>
+					</div>
+				</div>
+				<div class="cart" id="2">
+					<div class="cart__intro">
+						<img src="imgs/feature-catalog/2_bg.png" alt="" class="cart-intro__image">
+						<div class="cart-intro__name new-house">
+							<img src="imgs/feature-catalog/new.svg" alt="img" class="cart-intro-name__image">
+							<p class="cart-intro-name__text">New House</p>
+						</div>
+					</div>
+					<p class="cart__name">
+						Woodlandside
+					</p>
+					<p class="cart__prise">$ 20.000.000</p>
+					<div class="cart__owner">
+						<img src="imgs/feature-catalog/2_owner.png" alt="img" class="cart-owner__pic">
+						<div class="cart-owner__description">
+							<p class="cart-owner-desc__name">Robert Fox</p>
+							<p class="cart-owner-desc__position">Dr. San Jose, South Dakota</p>
+						</div>
+					</div>
+				</div>
+				<div class="cart active" id="3">
+					<div class="cart__intro">
+						<img src="imgs/feature-catalog/old_lighthouse.png" alt="" class="cart-intro__image">
+						<div class="cart-intro__name best-deals">
+							<img src="imgs/feature-catalog/bank.svg" alt="img" class="cart-intro-name__image">
+							<p class="cart-intro-name__text">Best Deals</p>
+						</div>
+					</div>
+					<p class="cart__name">
+						The Old Lighthouse
+					</p>
+					<p class="cart__prise">$ 44.000.000</p>
+					<div class="cart__owner">
+						<img src="imgs/feature-catalog/old_lighthouse_owner.png" alt="img" class="cart-owner__pic">
+						<div class="cart-owner__description">
+							<p class="cart-owner-desc__name">Ronald Richards</p>
+							<p class="cart-owner-desc__position">Santa Ana, Illinois</p>
+						</div>
+					</div>
+				</div>
+				<div class="cart" id="4">
+					<div class="cart__intro">
+						<img src="imgs/feature-catalog/4_bg.png" alt="" class="cart-intro__image">
+						<div class="cart-intro__name popular">
+							<img src="imgs/feature-catalog/popular.svg" alt="img" class="cart-intro-name__image">
+							<p class="cart-intro-name__text">Popular</p>
+						</div>
+					</div>
+					<p class="cart__name">
+						Cosmo's House
+					</p>
+					<p class="cart__prise">$ 22.000.000</p>
+					<div class="cart__owner">
+						<img src="imgs/feature-catalog/3_owner.png" alt="img" class="cart-owner__pic">
+						<div class="cart-owner__description">
+							<p class="cart-owner-desc__name">Jenny Wilson</p>
+							<p class="cart-owner-desc__position">Preston Rd. Inglewood, Maine 98380</p>
+						</div>
+					</div>
+				</div>
+				<div class="cart" id="5">
+					<div class="cart__intro">
+						<img src="imgs/feature-catalog/5_bg.png" alt="" class="cart-intro__image">
+						<div class="cart-intro__name popular">
+							<img src="imgs/feature-catalog/popular.svg" alt="img" class="cart-intro-name__image">
+							<p class="cart-intro-name__text">Popular</p>
+						</div>
+					</div>
+					<p class="cart__name">
+						Cosmo's House
+					</p>
+					<p class="cart__prise">$ 22.000.000</p>
+					<div class="cart__owner">
+						<img src="imgs/feature-catalog/3_owner.png" alt="img" class="cart-owner__pic">
+						<div class="cart-owner__description">
+							<p class="cart-owner-desc__name">Jenny Wilson</p>
+							<p class="cart-owner-desc__position">Preston Rd. Inglewood, Maine 98380</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<div class="services__ad">
+				<h4 class="recommendation">Benefit</h4>
+				<h2 class="title service__title">Benefit You Get When Using Our Services</h2>
+				<div class="service-ad__item">
+					<p class="service-ad__title">600+</p>
+					<p class="service-ad__desription">Home Furniture throughout Indonesia</p>
+				</div>
+				<div class="service-ad__item">
+					<p class="service-ad__title">135+</p>
+					<p class="service-ad__desription">Staff ready to help you</p>
+				</div>
+			</div>
+			<div class="services__list">
+				<div class="service-list__item">
+					<div class="img-container">
+						<img src="imgs/services-section/quality.svg" alt="">
+					</div>
+					<div class="description-container">
+						<p class="description-title">Best Quality</p>
+						<p class="description-text">All of our funiture uses the best materials and choices for our customers.</p>
+					</div>
+				</div>
+				<div class="service-list__item">
+					<div class="img-container"><img src="imgs/services-section/shipping.svg" alt=""></div>
+					<div class="description-container">
+						<p class="description-title">Free Shipping</p>
+						<p class="description-text">All of our funiture uses the best materials and choices for our customers.</p>
+					</div>
+				</div>
+				<div class="service-list__item">
+					<div class="img-container"><img src="imgs/services-section/custom.svg" alt=""></div>
+					<div class="description-container">
+						<p class="description-title">Space Customization</p>
+						<p class="description-text">All of our funiture uses the best materials and choices for our customers.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="tour-see">
+			<div class="tour-see__description">
+				<h4 class="recommendation">Benefit</h4>
+				<div class="tour__main-description">
+					<h2 class="title tour__title">
+						Let’s tour and see our house!
+					</h2>
+					<p class="tour__text">
+						Houses recommended by our partners that have been curated to become the home of your dreams!
+					</p>
+				</div>
+				<div class="tour__house-details">
+					<div class="house-details__title">
+						House Detail
+					</div>
+					<ul class="house-details__list">
+						<li class="house-details__item">
+							<img src="imgs/tour-see/bedroom.svg" alt="">
+							<p>4 Bedrooms</p>
+						</li>
+						<li class="house-details__item">
+							<img src="imgs/tour-see/bathroom.svg" alt="">
+							<p>1 Carport</p>
+						</li>
+						<li class="house-details__item">
+							<img src="imgs/tour-see/carport.svg" alt="">
+							<p>2 Bathrooms</p>
+						</li>
+						<li class="house-details__item">
+							<img src="imgs/tour-see/floors.svg" alt="">
+							<p>2 Floors</p>
+						</li>
+					</ul>
+				</div>
+				<div class="tour__call-us">
+					<div class="manager-description">
+						<img src="imgs/tour-see/manager-photo.png" alt="" class="manager-photo">
+						<div class="manager-description-text">
+							<p class="manager-name">
+								Dianne Russell
+							</p>
+							<p class="manager-position">
+								Manager Director
+							</p>
+						</div>
+					</div>
+					<button class="button-call">Contact Now</button>
+				</div>
+			</div>
+			<div class="tour-see__video">
+				<div class="tour__points">
+					<div class="point"></div>
+					<div class="point"></div>
+					<div class="point"></div>
+				</div>
+				<div class="video-instruction">
+					<img src="imgs/tour-see/video_psevdo.png" alt="">
+					<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/j3FaaXf_2iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+				</div>
+			</div>
+		</section>
+		<section class="comments">
+				<h4 class="recommendation">See Our Review</h4>
+				<h2 class="title comments__title">
+					What Our User Say About Us
+				</h2>
+				<ul class="comment__list">
+					<li class="comments_item">
+						<img src="imgs/comments/1_bg.png" alt="" class="comment-item__bg">
+						<div class="comment-item__description">
+							<p class="description__title">My house sold out fast!</p>
+							<p class="description__text">I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!</p>
+							<div class="comment__owner">
+								<div class="owner__data">
+									<img src="imgs/comments/1_owner.png" alt="" class="owner-photo">
+									<div class="owner__description">
+										<p class="owner-desc__title">Courtney Henry</p>
+										<p class="owner-desc__text">CEO Andarafish</p>
+									</div>
+								</div>
+								<div class="owner__mark">
+									<img src="imgs/comments/star.svg" alt="" class="star-img">
+									<p class="owner-mark__text">4.6</p>
+								</div>
+							</div>
+						</div>
+					</li><li class="comments_item active">
+						<img src="imgs/comments/bg.png" alt="" class="comment-item__bg">
+						<div class="comment-item__description">
+							<p class="description__title">Best! I got the house I wanted through Hounter</p>
+							<p class="description__text">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
+							<div class="comment__owner">
+								<div class="owner__data">
+									<img src="imgs/comments/owner.png" alt="" class="owner-photo">
+									<div class="owner__description">
+										<p class="owner-desc__title">Dianne Russell</p>
+										<p class="owner-desc__text">Manager Director</p>
+									</div>
+								</div>
+								<div class="owner__mark">
+									<img src="imgs/comments/star.svg" alt="" class="star-img">
+									<p class="owner-mark__text">4.6</p>
+								</div>
+							</div>
+						</div>
+					</li><li class="comments_item">
+						<img src="imgs/comments/3_bg.png" alt="" class="comment-item__bg">
+						<div class="comment-item__description">
+							<p class="description__title">Through the Hounter, I can get a house for my self</p>
+							<p class="description__text">By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!</p>
+							<div class="comment__owner">
+								<div class="owner__data">
+									<img src="imgs/comments/3_owner.png" alt="" class="owner-photo">
+									<div class="owner__description">
+										<p class="owner-desc__title">Esther Howard</p>
+										<p class="owner-desc__text">Head of Marketing</p>
+									</div>
+								</div>
+								<div class="owner__mark">
+									<img src="imgs/comments/star.svg" alt="" class="star-img">
+									<p class="owner-mark__text">4.6</p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="buttons-nav__container">
+					<button class="button-switch-slider switch-left-comment"></button>
+					<button class="button-switch-slider switch-right-comment"></button>
+				</div>
+			
+		</section>
+
+		<section class="news">
+				<h4 class="recommendation">See tips and trick from our partnership</h4>
+				<h2 class="title news__title">
+					Find out more about selling and buying homes
+				</h2>
+				<div class="news__videos">
+					<ul class="news-videos__closed-list">
+						<li class="closed__item">
+							<img src="imgs/news/5.png" alt="" class="preview-video-image">
+							<div class="preview-video__description">
+								<div class="video__owner">
+									<img src="imgs/news/1.png" alt="" >
+									<p>Dianne Russell</p>
+								</div>
+								<p class="video__name">The things we need to check when we want to buy a house</p>
+								<div class="video__info-date">
+									<img src="imgs/news/time.svg" alt="">
+									<p>4 min read | 25 Apr 2021</p>
+								</div>
+							</div>
+						</li>
+						<li class="closed__item">
+							<img src="imgs/news/4.png" alt="" class="preview-video-image">
+							<div class="preview-video__description">
+								<div class="video__owner">
+									<img src="imgs/news/2.png" alt="" >
+									<p>Courtney Henry</p>
+								</div>
+								<p class="video__name">7 Ways to distinguish the quality of the house we want to buy</p>
+								<div class="video__info-date">
+									<img src="imgs/news/time.svg" alt="">
+									<p>6 min read | 24 Apr 2021</p>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+					<div class="news-videos__opened">
+						<div class="opened-video__owner">
+							<img src="imgs/news/3.png" alt="">
+							<p>Cameron Williamson</p>
+						</div>
+						<p class="opened-video__name">12 Things to know before buying a house</p>
+						<div class="opened-video__info-date">
+							<img src="imgs/news/time-white.svg" alt="">
+							<p>8 min read | 25 Apr 2021</p>
+						</div>
+					</div>
+				</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="main__footer">
+			<div class="footer__description">
+				<img src="imgs/logo.png" alt="" class="logo footer__logo">
+				<p class="footer-description__text">We provide information about properties such as houses, villas and apartments to help people find their dream home</p>
+				<p class="footer-description__text">Subscribe to our newsletter!</p>
+				<div class="subscribe-block">
+					<img src="imgs/footer/mail.svg" alt="" class="mail-image">
+					<input type="text" text="" class="email__input" placeholder="Your email here">
+					<button class="button__subscribe">Subsribe Now</button>
+				</div>
+			</div>
+			<div class="footer__links">
+				<ul class="footer-link__list">
+					<li class="footer_link__item-title">Property</li>
+					<li class="footer_link__item-link">House</li>
+					<li class="footer_link__item-link">Apartment</li>
+					<li class="footer_link__item-link">Villa</li>
+				</ul>
+				<ul class="footer-link__list">
+					<li class="footer_link__item-title">Article</li>
+					<li class="footer_link__item-link">New Article</li>
+					<li class="footer_link__item-link">Popular Article</li>
+					<li class="footer_link__item-link">Most Read</li>
+					<li class="footer_link__item-link">Tips & Tricks</li>
+				</ul>
+				<ul class="footer-link__list">
+					<li class="footer_link__item-title">Contact</li>
+					<li class="footer_link__item-link">Medan, South Sumatera</li>
+					<li class="footer_link__item-link">(62) 81312120001</li>
+					<li class="footer_link__item-link">halo@homedesk.com</li>
+				</ul>
+			</div>
+		</div>
+		<div class="etc__footer">
+			<div class="terms-policy">
+				<a href="https://google.com">Terms & Conditions</a>
+				<a href="https://google.com">Privacy Policy</a>
+			</div>
+			<div class="socials">
+				<a href="https://google.com" class="social facebook">
+					<img src="imgs/footer/facebook.svg" alt="">
+				</a>
+				<a href="https://google.com" class="social twitter">
+					<img src="imgs/footer/twitter.svg" alt="">
+				</a>
+				<a href="https://google.com" class="social insta">
+					<img src="imgs/footer/insta.svg" alt="">
+				</a>
+			</div>
+		</div>
+		
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script src="scripts/script.js"></script>
+</body>
+</html>

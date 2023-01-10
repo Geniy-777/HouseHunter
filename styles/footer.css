@@ -1,0 +1,138 @@
+.footer {
+	margin-bottom: 50px;
+}
+.main__footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main__footer >*{
+	padding: 20px 15px;
+}
+.footer__description {
+	display: flex;
+	padding: 2px 10px;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 400px;
+}
+.logo {
+
+}
+.footer__logo {
+	width: 71px;
+	height: 51px;
+}	
+.footer-description__text {
+	font-family: 'Lexend';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #626687;
+
+	opacity: 0.75;
+}
+
+.subscribe-block {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 15px;
+	background: #FFFFFF;
+	box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.08);
+	border-radius: 32px;
+}
+
+.mail-image {
+}
+.email__input {
+	font-family: 'Lexend';
+	font-weight: 500;
+	font-size: 14px;
+	color: #888B97;
+	outline: none;
+	border:none;
+}
+
+
+.footer__links {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 80px;
+}
+.footer-link__list {
+	list-style-type: none;
+}
+.footer_link__item-title {
+	font-family: 'Lexend';
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #0E1735;
+}
+.footer_link__item-link {
+	font-family: 'Lexend';
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #888B97;
+	text-decoration: none;
+	margin: 12px 0;
+}
+.etc__footer {
+	margin-top: 50px ;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.terms-policy{
+	display: flex;
+	align-items: center;
+	gap: 40px;
+
+}
+.terms-policy a{
+
+	font-family: 'DM Sans';
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: -0.204545px;
+	color: #626687;
+	text-decoration: none;
+}
+.socials{
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	margin-top: 10px;
+}
+.socials a{
+
+	font-family: 'DM Sans';
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: -0.204545px;
+	color: #626687;
+	text-decoration: none;
+}
+.social {
+}
+.facebook {
+}
+.twitter {
+}
+.insta {
+}
+
+
+@media screen and (max-width:650px){
+	.footer__links{
+		gap:15px;
+	}
+}
